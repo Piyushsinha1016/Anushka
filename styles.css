@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #722F37; /* Wine red */
+    color: #fff;
+    text-align: center;
+}
+.hero {
+    padding: 20vh 0;
+    background-color: #5A1E28; /* Darker wine red for contrast */
+}
+.hero h1 {
+    font-size: 3em;
+    color: #FFD700;
+    animation: fadeIn 2s;
+}
+.hero p {
+    font-size: 1.5em;
+    margin: 10px 20px;
+}
+.music, .proposal {
+    padding: 20px;
+    margin: 20px;
+}
+.music-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #FFD700;
+    color: #5A1E28;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+.music-link:hover {
+    background-color: #E0B500;
+}
+button {
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFD700;
+    color: #5A1E28;
+    font-size: 1em;
+    cursor: pointer;
+    animation: bounce 2s infinite;
+}
+button:hover {
+    background-color: #E0B500;
+}
+footer {
+    padding: 20px;
+    background-color: #5A1E28; /* Matches the hero for consistency */
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
